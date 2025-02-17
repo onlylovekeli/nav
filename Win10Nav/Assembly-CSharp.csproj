@@ -60,8 +60,13 @@
     <Analyzer Include="D:\Unity\apps\2022.3.40f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\SingletonTemplate.cs" />
+    <Compile Include="Assets\Scripts\Common\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Common\DragItem.cs" />
+    <Compile Include="Assets\PC\PCDeskTop.cs" />
+    <Compile Include="Assets\Scripts\Common\SingletonTemplate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\StreamingAssets\1.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
